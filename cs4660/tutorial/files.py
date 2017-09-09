@@ -28,7 +28,8 @@ class SimpleFile(object):
         get_mean retrieves the mean value of the list by line_number (starts
         with zero)
         """
-        return lists.get_avg(self.numbers[line_number])
+        print("mean: ", lists.get_avg(self.numbers[line_number]))
+        return lists.mean(self.numbers[line_number])
 
 
     def get_max(self, line_number):
