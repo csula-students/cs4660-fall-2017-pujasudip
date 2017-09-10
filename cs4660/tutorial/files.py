@@ -2,7 +2,6 @@
 
 from io import open
 from tutorial import lists
-import future
 
 class SimpleFile(object):
     """SimpleFile tests using file read api to do some simple math"""
