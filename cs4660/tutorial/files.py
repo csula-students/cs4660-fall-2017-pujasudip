@@ -2,6 +2,7 @@
 
 from io import open
 from tutorial import lists
+from __future__ import division
 
 class SimpleFile(object):
     """SimpleFile tests using file read api to do some simple math"""
