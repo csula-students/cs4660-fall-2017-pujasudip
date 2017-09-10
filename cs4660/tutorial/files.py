@@ -1,6 +1,7 @@
 """Files tests simple file read related operations"""
 
 from __future__ import division
+from past.utils import old_div
 from io import open
 from tutorial import lists
 
