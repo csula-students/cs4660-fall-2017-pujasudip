@@ -2,7 +2,7 @@
 
 from io import open
 from tutorial import lists
-from __future__ import division
+import future
 
 class SimpleFile(object):
     """SimpleFile tests using file read api to do some simple math"""
@@ -30,7 +30,7 @@ class SimpleFile(object):
         with zero)
         """
         print("mean: ", lists.get_avg(self.numbers[line_number]))
-        return lists.get_avg(self.numbers[line_number])
+        return float(lists.get_avg(self.numbers[line_number]))
 
 
     def get_max(self, line_number):
