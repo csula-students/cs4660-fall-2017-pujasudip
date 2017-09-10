@@ -1,7 +1,8 @@
 """Files tests simple file read related operations"""
 
 from __future__ import division
-from past.utils import old_div
+from future import *
+from past import *
 from io import open
 from tutorial import lists
 
@@ -31,7 +32,7 @@ class SimpleFile(object):
         with zero)
         """
         print("mean: ", lists.get_avg(self.numbers[line_number]))
-        return float(lists.get_avg(self.numbers[line_number]))
+        return lists.get_avg(self.numbers[line_number])
 
 
     def get_max(self, line_number):
