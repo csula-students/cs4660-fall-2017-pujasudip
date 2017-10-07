@@ -52,11 +52,14 @@
 * A-: 90 to 93
 * B+: 85 to 89
 * B: 80 to 84
-**Graduate students are required to obtain a grade 80 or above to pass the course**
 * B-: 77 to 79
 * C+: 74 to 76
 * C: 70 to 73
-**Undergraduate students are required to obtain a grade 70 or above to pass the course**
+* C-: 67 to 79
+* D+: 64 to 66
+* D: 60 to 69
+* D-: 55 to 59
+* F: 0 to 54
 
 ## ADA Statement
 
@@ -75,8 +78,8 @@ The schedule below is tentative and is subject to change.
 | 1  [08/26]         | [Introduction][1] | Set up environment |
 | 2  [09/02]         | [Intro to Python][2] |  |
 | 3  [09/09]         | [Graph representation][3] |  |
-| 4  [09/16]         | [BFS, DFS][4] | [Homework 1][10], Quiz 1 |
-| 5  [09/23]         | [Dijkstra search][5] |  |
+| 4  [09/16]         | [BFS, DFS][4] | Quiz 1 |
+| 5  [09/23]         | [Dijkstra search][5] | [Homework 1][10] |
 | 6  [09/30]         | [Heuristic search][6] |  |
 | 7  [10/07]         | [Adversarial search][7] |  |
 | 8  [10/14]         | [Monte Carlo Tree Search][8] | [Homework 2][11], Quiz 2 |
