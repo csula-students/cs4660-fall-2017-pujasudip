@@ -116,14 +116,14 @@ function minimax(graph, sourceNode, depth, maximizingPlayer) {
     }
 
     if (maximizingPlayer) {
-        bestValue = Number.MAX_VALUE; // positive infinite
+        bestValue = Number.MIN_VALUE;
         for (node in graph.neighbors(sourceNode)) {
             value = minimax(node, graph, depth - 1, false);
             bestValue = Math.max(bestValue, value);
         }
         return bestValue;
     } else {
-        bestValue = Number.MIN_VALUE; // negative infinite
+        bestValue = Number.MAX_VALUE;
         for (node in graph.neighbors(sourceNode)) {
             value = minimax(node, graph, depth - 1, true);
             bestValue = Math.min(bestValue, value);
@@ -149,12 +149,12 @@ It does so with a consistent strategy to eliminate unproductive sub-tree from fu
 
 ![Alpha Beta Tree](imgs/alpha-beta-tree.png)
 
-(a) The first leaf below B has the value 3. Hence, B, which is a MIN node, has a value of at most 3. 
-(b) The second leaf below B has a value of 12; MIN would avoid this move, so the value of B is still at most 3. 
-(c) The third leaf below B has a value of 8; we have seen all B’s successor states, so the value of B is exactly 3. Now, we can infer that the value of the root is at least 3, because MAX has a choice worth 3 at the root. 
-(d) The first leaf below C has the value 2. Hence, C,which is a MIN node,has a value of at most2. But we know that B is worth 3, so MAX would never choose C. Therefore, there is no point in looking at the other successor states of C. This is an example of alpha–beta pruning. 
-(e) The first leaf below D has the value 14, so D is worth at most 14. This is still higher than MAX’s best alternative (i.e., 3), so we need to keep exploring D’s successor states. Notice also that we now have bounds on all of the successors of the root, so the root’s value is also at most 14. 
-(f) The second successor of D is worth 5, so again we need to keep exploring. The third successor is worth 2, so now D is worth exactly 2. MAX’s decision at the root is to move to B, giving a value of 3.
+1. The first leaf below B has the value 3. Hence, B, which is a MIN node, has a value of at most 3. 
+ The second leaf below B has a value of 12; MIN would avoid this move, so the value of B is still at most 3. 
+2. The third leaf below B has a value of 8; we have seen all B’s successor states, so the value of B is exactly 3. Now, we can infer that the value of the root is at least 3, because MAX has a choice worth 3 at the root. 
+3. The first leaf below C has the value 2. Hence, C,which is a MIN node,has a value of at most2. But we know that B is worth 3, so MAX would never choose C. Therefore, there is no point in looking at the other successor states of C. This is an example of alpha–beta pruning. 
+4. The first leaf below D has the value 14, so D is worth at most 14. This is still higher than MAX’s best alternative (i.e., 3), so we need to keep exploring D’s successor states. Notice also that we now have bounds on all of the successors of the root, so the root’s value is also at most 14. 
+5. The second successor of D is worth 5, so again we need to keep exploring. The third successor is worth 2, so now D is worth exactly 2. MAX’s decision at the root is to move to B, giving a value of 3.
 
 ![Alpha Beta General](imgs/alpha-beta-general.png)
 
