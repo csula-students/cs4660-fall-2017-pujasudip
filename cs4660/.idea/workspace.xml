@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35a9526-a7c5-4d34-9a0b-3e1ac8811712" name="Default" comment="" />
+    <list default="true" id="f35a9526-a7c5-4d34-9a0b-3e1ac8811712" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +12,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graph.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph/graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -20,6 +43,7 @@
       <list>
         <option value="$PROJECT_DIR$/graph/graph.py" />
         <option value="$PROJECT_DIR$/test/test_graph.py" />
+        <option value="$PROJECT_DIR$/graph/utils.py" />
       </list>
     </option>
   </component>
@@ -44,7 +68,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -61,6 +84,11 @@
             <path>
               <item name="cs4660" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs4660" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs4660" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs4660" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -73,6 +101,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -91,21 +120,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_graph.py">
-    <configuration name="Unittests for test_graph.TestAdjacencyList" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="cs4660" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_graph.TestAdjacencyList&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
+  <component name="RunManager" selected="Python.utils">
     <configuration name="Unittests for test_graph.TestAdjacencyMatrix" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,20 +177,37 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_graph.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs4660" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_graph.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyList" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix.test_add_node" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix.test_add_edge" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix.test_add_node" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix.test_add_edge" />
+      <item index="4" class="java.lang.String" itemvalue="Python.utils" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_graph.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix.test_add_edge" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix.test_add_node" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyList" />
+        <item index="0" class="java.lang.String" itemvalue="Python.utils" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_graph.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix.test_add_edge" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix.test_add_node" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_graph.TestAdjacencyMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -193,9 +225,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_graph_py - 2017.10.05 at 20h 16m 21s.xml">
-      <configuration name="Unittests in test_graph.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_graph_py - 2017.10.05 at 20h 17m 01s.xml">
       <configuration name="Unittests in test_graph.py" configurationId="tests" />
     </history-entry>
@@ -223,11 +252,15 @@
     <history-entry file="Unittests_in_test_graph_py - 2017.10.05 at 20h 21m 31s.xml">
       <configuration name="Unittests in test_graph.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_graph_py - 2017.10.12 at 11h 46m 04s.xml">
+      <configuration name="Unittests in test_graph.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38975155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -282,7 +315,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/graph/graph.py" />
-    <entry file="file://$PROJECT_DIR$/graph/graph.py" />
     <entry file="file://$PROJECT_DIR$/test/fixtures/graph-1.txt" />
     <entry file="file://$PROJECT_DIR$/test/test_graph.py" />
     <entry file="file://$PROJECT_DIR$/graph/graph.py" />
@@ -290,7 +322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4411">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -298,7 +329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -307,7 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12225">
           <caret line="828" column="0" lean-forward="false" selection-start-line="828" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -322,7 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4411">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -337,7 +365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12225">
           <caret line="828" column="0" lean-forward="false" selection-start-line="828" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -387,7 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -395,9 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2280">
           <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding>
-            <element signature="e#861#880#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -493,18 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/graph-1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,19 +527,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
           <caret line="142" column="24" lean-forward="false" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
-          <folding>
-            <element signature="e#49#64#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph/graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="305" column="10" lean-forward="false" selection-start-line="305" selection-start-column="10" selection-end-line="305" selection-end-column="10" />
-          <folding>
-            <element signature="e#861#880#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="368">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/graph-1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
