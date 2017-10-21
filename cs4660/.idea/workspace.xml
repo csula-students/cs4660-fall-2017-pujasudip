@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35a9526-a7c5-4d34-9a0b-3e1ac8811712" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../notes/imgs/houseprice.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../notes/imgs/iris.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../notes/imgs/ml_map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../notes/imgs/pizzahut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../notes/imgs/supervised_learning.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quiz/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../notes/lecture_notes_week9_ML_overview.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../notes/quizes/quiz2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SYLLABUS.md" afterPath="$PROJECT_DIR$/../SYLLABUS.md" />
-    </list>
+    <list default="true" id="f35a9526-a7c5-4d34-9a0b-3e1ac8811712" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +24,17 @@
       <file leaf-file-name="test_search.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1878">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -91,7 +91,7 @@
             <path>
               <item name="cs4660" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs4660" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="quiz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cs4660" type="b2602c69:ProjectViewProjectNode" />
@@ -195,13 +195,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/graph/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_simple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -458,9 +451,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1878">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
