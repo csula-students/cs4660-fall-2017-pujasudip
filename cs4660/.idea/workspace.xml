@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35a9526-a7c5-4d34-9a0b-3e1ac8811712" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f35a9526-a7c5-4d34-9a0b-3e1ac8811712" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -253,9 +251,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_search_TestAStar - 2017.10.20 at 22h 52m 08s.xml">
-      <configuration name="Unittests for test_search.TestAStar" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_test_search_TestAStar - 2017.10.20 at 22h 53m 35s.xml">
       <configuration name="Unittests for test_search.TestAStar" configurationId="tests" />
     </history-entry>
@@ -281,6 +276,9 @@
       <configuration name="Unittests for test_search.TestAStar" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_test_search_TestAStar - 2017.10.20 at 23h 12m 30s.xml">
+      <configuration name="Unittests for test_search.TestAStar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_search_TestAStar - 2017.10.20 at 23h 25m 08s.xml">
       <configuration name="Unittests for test_search.TestAStar" configurationId="tests" />
     </history-entry>
   </component>
