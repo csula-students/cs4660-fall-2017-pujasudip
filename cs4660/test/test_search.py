@@ -9,8 +9,8 @@ from graph import graph
 
 class TestBFS(unittest.TestCase):
     def setUp(self):
-        graph_1_path = '../test/fixtures/graph-1.txt'
-        graph_2_path = '../test/fixtures/graph-2.txt'
+        graph_1_path = './test/fixtures/graph-1.txt'
+        graph_2_path = './test/fixtures/graph-2.txt'
         self.graph_1s = [graph.AdjacencyList(), graph.AdjacencyMatrix(), graph.ObjectOriented()]
         self.graph_2s = [graph.AdjacencyList(), graph.AdjacencyMatrix(), graph.ObjectOriented()]
         self.graph_1s = list(map(construct_graph(graph_1_path), self.graph_1s))
@@ -70,8 +70,8 @@ class TestBFS(unittest.TestCase):
 
 class TestDFS(unittest.TestCase):
     def setUp(self):
-        graph_1_path = '../test/fixtures/graph-1.txt'
-        graph_2_path = '../test/fixtures/graph-2.txt'
+        graph_1_path = './test/fixtures/graph-1.txt'
+        graph_2_path = './test/fixtures/graph-2.txt'
         self.graph_1s = [graph.AdjacencyList(), graph.AdjacencyMatrix(), graph.ObjectOriented()]
         self.graph_2s = [graph.AdjacencyList(), graph.AdjacencyMatrix(), graph.ObjectOriented()]
         self.graph_1s = list(map(construct_graph(graph_1_path), self.graph_1s))
@@ -139,8 +139,8 @@ class TestDFS(unittest.TestCase):
 
 class TestDijkstra(unittest.TestCase):
     def setUp(self):
-        graph_1_path = '../test/fixtures/graph-1.txt'
-        graph_2_path = '../test/fixtures/graph-2.txt'
+        graph_1_path = './test/fixtures/graph-1.txt'
+        graph_2_path = './test/fixtures/graph-2.txt'
         self.graph_1s = [graph.AdjacencyList(), graph.AdjacencyMatrix(), graph.ObjectOriented()]
         self.graph_2s = [graph.AdjacencyList(), graph.AdjacencyMatrix(), graph.ObjectOriented()]
         self.graph_1s = list(map(construct_graph(graph_1_path), self.graph_1s))
@@ -201,11 +201,11 @@ class TestDijkstra(unittest.TestCase):
 
 class TestAStar(unittest.TestCase):
     def setUp(self):
-        grid_1_path = '../test/fixtures/grid-1.txt'
-        grid_2_path = '../test/fixtures/grid-2.txt'
-        grid_3_path = '../test/fixtures/grid-3.txt'
-        grid_4_path = '../test/fixtures/grid-4.txt'
-        grid_5_path = '../test/fixtures/grid-5.txt'
+        grid_1_path = './test/fixtures/grid-1.txt'
+        grid_2_path = './test/fixtures/grid-2.txt'
+        grid_3_path = './test/fixtures/grid-3.txt'
+        grid_4_path = './test/fixtures/grid-4.txt'
+        grid_5_path = './test/fixtures/grid-5.txt'
         self.graph_1s = [graph.AdjacencyList(), graph.AdjacencyMatrix(), graph.ObjectOriented()]
         self.graph_2s = [graph.AdjacencyList(), graph.AdjacencyMatrix(), graph.ObjectOriented()]
         self.graph_3s = [graph.AdjacencyList(), graph.AdjacencyMatrix(), graph.ObjectOriented()]
