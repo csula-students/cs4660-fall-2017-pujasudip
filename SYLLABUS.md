@@ -83,14 +83,14 @@ The schedule below is tentative and is subject to change.
 | 6  [09/30]         | [Heuristic search][6] |  |
 | 7  [10/07]         | [Adversarial search][7] |  |
 | 8  [10/14]         | [Monte Carlo Tree Search][8] | [Homework 2][11], Quiz 2 |
-| 9  [10/21]         | [Concepts of Machine Learning][14] |  |
-| 10 [10/28]         | [Concepts of Machine Learning][14] |  |
-| 11 [11/04]         | [Decision Trees][15] |  |
-| 12 [11/11]         | [Naive Bayes][16] |  |
-| 13 [11/18]         | [Introduction to Computer Vision][17] |  |
-| 14 [11/25]         | [Computer Vision][18] |  |
-| 15 [12/02]         | [Computer Vision][18] |  |
-| Final [12/09]      | [Project][9] |  |
+| 9  [10/21]         | [Concepts of Machine Learning, Jupyter, NumPy][14]| Lab 1 |
+| 10 [10/28]         | Decision Trees |  |
+| 11 [11/04]         | Logistic Regression|  |
+| 12 [11/11]         | Naive Bayes|  |
+| 13 [11/18]         | Classic Computer Vision Sampler|  |
+| 14 [11/25]         | Pedestrian detection using SVM + HOG|  |
+| 15 [12/02]         | Object Detection|  |
+| Final [12/09]      | Computer Vision Project Presentations|  |
 
 [1]: notes/introduction.md
 [2]: notes/python.md
@@ -105,9 +105,6 @@ The schedule below is tentative and is subject to change.
 [11]: notes/homeworks/homework2.md
 [12]: notes/homeworks/homework3.md
 [13]: notes/homeworks/homework4.md
-[14]: notes/machine-learning.md
-[15]: notes/decision-tree.md
-[16]: notes/naive-bayes.md
-[17]: notes/intro-computer-vision.md
-[18]: notes/computer-vision.md
+[14]: notes/lecture_notes_week9_ML_overview.ipynb
+
 
