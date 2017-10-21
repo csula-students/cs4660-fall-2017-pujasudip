@@ -1,17 +1,8 @@
 """
 quiz2!
-<<<<<<< HEAD
 Use path finding algorithm to find your way through dark dungeon!
 Tecchnical detail wise, you will need to find path from node 7f3dc077574c013d98b2de8f735058b4
 to f1f131f647621a4be7c71292e79613f9
-=======
-
-Use path finding algorithm to find your way through dark dungeon!
-
-Tecchnical detail wise, you will need to find path from node 7f3dc077574c013d98b2de8f735058b4
-to f1f131f647621a4be7c71292e79613f9
-
->>>>>>> 5807faa96697814d7548654632a3f37beaec5d88
 TODO: implement BFS
 TODO: implement Dijkstra utilizing the path with highest effect number
 """
@@ -28,12 +19,14 @@ except ImportError:
 GET_STATE_URL = "http://192.241.218.106:9000/getState"
 STATE_TRANSITION_URL = "http://192.241.218.106:9000/state"
 
+
 def get_state(room_id):
     """
     get the room by its id and its neighbor
     """
     body = {'id': room_id}
     return __json_request(GET_STATE_URL, body)
+
 
 def transition_state(room_id, next_room_id):
     """
@@ -43,6 +36,7 @@ def transition_state(room_id, next_room_id):
     """
     body = {'id': room_id, 'action': next_room_id}
     return __json_request(STATE_TRANSITION_URL, body)
+
 
 def __json_request(target_url, body):
     """
