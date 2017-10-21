@@ -1,17 +1,10 @@
 """
 quiz2!
-<<<<<<< HEAD
-Use path finding algorithm to find your way through dark dungeon!
-Tecchnical detail wise, you will need to find path from node 7f3dc077574c013d98b2de8f735058b4
-to f1f131f647621a4be7c71292e79613f9
-=======
 
 Use path finding algorithm to find your way through dark dungeon!
 
 Tecchnical detail wise, you will need to find path from node 7f3dc077574c013d98b2de8f735058b4
 to f1f131f647621a4be7c71292e79613f9
-
->>>>>>> 5807faa96697814d7548654632a3f37beaec5d88
 TODO: implement BFS
 TODO: implement Dijkstra utilizing the path with highest effect number
 """
